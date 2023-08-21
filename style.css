@@ -1,0 +1,682 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+BODY{
+    /* font-family: 'Frank Ruhl Libre', serif; */
+    /* font-family: 'Gabriela', serif; */
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Reem Kufi', sans-serif;
+}
+.mumbai-btn{
+    padding: 12px;
+    font-size: 12px;
+    width: 131px;
+    border-color: white;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 600;
+}
+.navbar-brand{
+    color: black;
+    font-weight: 600;
+}
+.main {
+    background: linear-gradient(rgba(34, 48, 88, 0),rgba(27, 36, 63, 1)), url(assets/bg.jpeg);
+    background-size: 100% 100%;
+    width: 100%;
+}
+.home-text{
+    margin-top: 0%;
+    margin-left: 88px;
+}
+
+
+.location i{
+    background: #EBFAFF;
+    color: #00E5A1;
+    width: 36px;
+    height: 41px;
+    padding: 11px;
+    margin-top: -8px;
+    border-radius: 5px;
+}
+.loc {
+    margin-left: 32px ;
+    margin-bottom: -11px ;
+}
+
+.property i{
+    background: #EBFAFF;
+    color: #00E5A1;
+    width: 36px;
+    height: 41px;
+    padding: 11px;
+    margin-top: -8px;
+    border-radius: 5px;
+}
+.pro{
+    margin-left: 32px;
+    margin-bottom: -11px;
+}
+
+.budget i{
+    background: #EBFAFF;
+    color: #00E5A1;
+    width: 36px;
+    height: 41px;
+    padding: 11px;
+    margin-top: -8px;
+    border-radius: 5px;
+}
+.bud{
+    margin-left: 32px;
+    margin-bottom: -11px;
+}
+
+.arrow-text{
+    margin-top: -72px;
+    width: 380px;
+}
+
+.scroll-down-arrow p {
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.scroll-down-arrow{
+    margin-bottom: -110px;
+}
+
+.main h1{
+    font-size: 4rem;
+}
+.search-card{
+    background-color: white;
+    width: 115%;
+    margin-left: -64px;
+    border-radius: 10px;
+}
+.card{
+    border: none;
+}
+.card-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 10px;
+}
+.main select{
+    height: 40px;
+    font-size: 15px;
+    width: 80%;
+    outline: none;
+    padding: 0 20px;
+    border: none;
+    background: transparent;
+    margin-top: -4px !important;
+
+}
+.main span{
+    color: rgb(104, 89, 89);
+    /* font-weight: 600; */
+    font-size: 12px;
+    margin-left: 24px;
+}
+.search{
+
+    background: #0EA57A;
+    color: white;
+    height: 54px;
+    width: 70px;
+    margin-left: 152px;
+    margin-top: 0px;
+    border-radius: 8px;
+
+}
+.search i{
+    padding: 18px;
+    margin-top: 1px;
+    margin-left: 10px;
+    
+}
+.search-row{
+    margin-left: 19px;
+}
+.loc-div{
+    margin-top: -28px;
+    margin-left: 30px;
+}
+
+.btn1:hover{
+    background-color: tomato;
+    transition: 0.5s;
+}
+
+.car-park{
+    text-align: right;
+}
+.overview {
+    color: white;
+    background: rgba(26, 36, 64, 1);
+    padding-bottom: 124px;
+}
+
+.col-sm span{
+    color: rgba(0, 229, 161, 1);
+}
+.mumbai-img1{
+    width: 302px;
+    height: 412px;
+    top: 1591px;
+    left: 293.865234375px; 
+
+}
+.eastwing-img{
+    width: 302.6385626177739px;
+    height: 412.456804571937px;
+    top: 2159px;
+    left: 1022.865234375px;
+    angle: -8.44 deg;
+
+}
+.numbers{
+    margin-top: 100px;
+}
+.numbers p{
+    color: rgba(0, 229, 161, 1);
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+.numbers span{
+    color: white;
+    font-size: 12px;
+}
+.numbers p span{
+    color: rgba(0, 229, 161, 1);
+    font-size: 15px;
+}
+
+.gym img{
+    width: 100% !important;
+    height: 600px !important;
+    top: 4230px;
+    left: 1px;
+}
+
+.amenities img{
+    width: 224px;
+    height: 219px;
+    top: 5383px;
+    left: 153px;
+
+}
+.ament-box h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.ament-box{
+    margin-bottom: 80px;
+}
+
+.map-area{
+    background: linear-gradient(rgba(34, 48, 88, 0), rgba(27, 36, 63, 1));
+    padding: 20px;
+    float: right;
+}
+
+
+.btn{
+    background: #00E5A1;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0px;
+}
+#name, #mobile, #email{
+    background: transparent;
+}
+
+.text-input
+{
+    padding: 4px 0px 4px 40px;
+    color: #A5A5A5;
+    width: 100%;
+    border: #fff solid 1px;
+    border-radius: 6px;
+    font-size: 12px;
+    height: 51px;
+    outline: none;
+}
+.input-group-prepend {
+    margin-right: -40px;
+}
+.icon-color
+{
+  color: #00e5a1;
+}
+
+.phone {
+    background-color: #1A2541;
+    padding: 24px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 77px;
+}
+
+.phone i {
+    color: white;
+    font-size: 24px;
+}
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-left: -30px;
+}
+
+.social-media div {
+    background: #FFFFFF;
+    padding: 18px;
+    border-radius: 50px;
+    margin: 0 15px; 
+    transition: background-color 0.3s, color 0.3s;
+    height: 54px;
+    width: 54px;
+}
+
+.social-media div:hover {
+    background-color: #00E5A1;
+    color: white; 
+    cursor: pointer;
+}
+
+
+.map-area {
+    position: relative;
+    overflow: hidden;
+}
+
+.map-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.map-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(26, 36, 64, 1), rgb(26 36 64 / 36%) 50%);
+    z-index: 1;
+}
+
+
+.para-style
+{
+    font-size: 28px;
+    line-height: 42px;
+    color: white;
+}
+.span-style{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A5A5A5;
+}
+
+
+
+.amenity-column1 {
+    padding-left: 20px; 
+    margin-left: 20px;
+    position: relative; 
+}
+
+.amenity-column1:first-child {
+    margin-left: 0;
+}
+
+
+.amenity-column1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -12px;
+    height: 82%;
+    border-left: 2px solid #A5A5A5;
+}
+
+/* ################################## */
+.amenity-column3 {
+    padding-left: 20px; 
+    margin-left: 20px; 
+    position: relative;
+}
+
+.amenity-column3:first-child {
+    margin-left: 0; 
+}
+
+
+.amenity-column3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -12px; 
+    height: 86%;
+    border-left: 2px solid #A5A5A5; 
+}
+
+/* ################################## */
+.amenity-column {
+    padding-left: 20px; 
+    margin-left: 20px; 
+    position: relative;
+}
+
+.amenity-column:first-child {
+    margin-left: 0;
+}
+
+
+.amenity-column::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -12px; 
+    height: 100%;
+    border-left: 2px solid #A5A5A5; 
+}
+
+
+
+
+.para-style
+{
+  
+    font-size: 28px;
+  
+    line-height: 42px;
+    color: white;
+}/*
+.para-style ul li {
+  color: #00E5A1;
+} */
+  
+ul.custom-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul.custom-list li {
+    padding-left: 20px;
+    margin: 5px;
+    position: relative;
+   }
+
+  ul.custom-list li::before {
+    content: "\2022"; 
+    color: #00E5A1; 
+    font-size: 0.5em;
+    position: absolute;
+    left: 0;
+  }
+.span-style{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A5A5A5;
+    padding: 0 0 0px 30px;
+}
+
+
+
+.amenity-col2, .amenity-col4{
+    margin-top: 64px;
+}
+
+.premium-ament p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.amenity-box >div{
+    display: flex;
+    margin-top: 10px;
+}
+.amenity-box >div> i{
+    background-color: #EBFAFF;
+    color: #00E5A1;
+    padding: 16px;
+    border-radius: 50%;
+}
+.amenity-box> p{
+    margin-left: 63px !important;
+    margin-top: -14px;
+    font-size: 11px;
+}
+
+.premium-ament p{
+    margin-left: 13px;
+}
+
+
+.image-container {
+    position: relative;
+    margin-top: -90px;
+  }
+
+  .img {
+    position: absolute;
+  }
+
+.mumbai-img1{
+    width: 253px;
+    height: 336px;
+    top: 1591px;
+    left: 293.865234375px;
+    transform: rotate(-9deg);
+    top: 10px;
+    z-index: 1;
+    left: 49px;
+}
+.mumbai-img2
+{
+    width: 257px;
+    height: 364px;
+    top: 1591px;
+    left: 293.865234375px;
+    transform: rotate(10deg);
+    top: -16px;
+    left: 140px;
+    z-index: 1;
+}
+
+.eastwing-img{
+    width: 257px;
+    height: 364px;
+    top: 1570px;
+    left: 1022.865234375px;
+    transform: rotate(9deg);
+    z-index: 1;
+    top: -4px;
+    left: 174px;
+}
+.bed2
+{
+    width: 253px;
+    height: 336px;
+    transform: rotate(-17deg);
+    top: 50px;
+    left: 93px;
+}
+.apartment{
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.eastwing-p{
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.neighbor{
+    font-size: 1.75rem;; 
+    margin-bottom: 50px;
+}
+.neighbor-row{
+    padding-bottom: 40px;
+}
+
+
+@media (max-width: 768px) {
+
+    
+
+    .text-arrow{
+        width: 250px;
+        margin-top: -55px !important;
+        margin-bottom: 54px;
+    }
+
+    .search-card {
+        background-color: white;
+        width: 85%;
+        border-radius: 10px;
+        margin-left: 22px;
+    }
+    .search-head{
+        color: white;
+        margin-left: 86px !important;
+        margin-bottom: -16px;
+    }
+    .main h1 {
+        font-size: 35px;
+    }
+    .mumbai-img1 {
+        width: 200px;
+        height: 265px;
+        transform: rotate(-9deg);
+        top: 178px;
+        z-index: 1;
+        left: 49px;
+    }
+    .mumbai-img2 {
+        width: 200px;
+        height: 265px;
+        top: 172px;        
+        transform: rotate(10deg);
+        left: 94px;
+        z-index: 1;
+    }
+    .mumbai-row{
+        margin-top: -100px;
+    }
+    .image-container {
+        position: relative;
+        margin-top: 20px;
+    }
+    .apartment{
+        font-size: 22px !important;
+    }
+    .bed2 {
+        width: 200px;
+    height: 264px;
+    transform: rotate(-17deg);
+    top: 9px;
+    left: 64px;
+    }
+    .eastwing-img {
+        width: 200px;
+        height: 287px;
+        top: 1570px;
+        left: 1022.865234375px;
+        transform: rotate(9deg);
+        z-index: 1;
+        top: -4px;
+        left: 100px;
+    }
+    .east-wing{
+        margin-top: 139px;
+    }
+    .eastwing-p{
+        font-size: 22px !important;
+    }
+    .east-wing ul{
+        font-size: 10px !important;
+    }
+    .apartment-p{
+        font-size: 10px !important;
+    }
+    .numbers {
+        margin-top: 317px;
+    }
+    .home-text {
+        margin-top: -15%;
+        margin-left: 0px;
+    }
+    .gym img {
+       
+        height: 230px !important;
+    }
+    .car-park{
+        text-align: left;
+    }
+    .amenity-column3 {
+        padding-left: 20px;
+        margin-left: 20px;
+        position: relative;
+        margin-top: 45px;
+    }
+    .amenity-column1::before{
+        display: none;
+    }
+    .amenity-column::before {
+        display: none;
+    }
+    .amenity-column3::before{
+        display: none;
+    }
+    .amenity-p{
+        text-align: justify;
+    }
+    .amenit1-img{
+        margin-left: 45px;
+    }
+    .map-area {
+        background: linear-gradient(rgba(34, 48, 88, 0), rgba(27, 36, 63, 1));
+        padding: 20px;
+        float: none;
+    }
+    .map-img{
+        width: 312px !important;
+    }
+
+  }
+  
+  @media (max-width: 992px) {
+    
+   
+  }
